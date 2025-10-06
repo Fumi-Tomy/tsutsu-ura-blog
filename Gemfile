@@ -32,11 +32,13 @@ gem "image_processing", "~> 1.2"
 
 gem "kaminari"
 
-gem "device"
+gem "devise"
 
 gem 'jquery-rails'
 gem "tailwindcss-rails"
 gem "dartsass-rails"
+
+gem 'rails-i18n'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
