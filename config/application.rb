@@ -25,5 +25,10 @@ module Blog
     # config.eager_load_paths << Rails.root.join("extras")
     config.assets.enabled = false
     config.assets.manifest = false 
+    # 日本語化
+    config.i18n.default_locale = :ja
+    
+    # 標準時間を東京に設定
+    config.time_zone = 'Tokyo'    
   end
 end
